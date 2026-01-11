@@ -3,6 +3,14 @@
 import './globals.css'
 import Script from 'next/script';
 
+declare global {
+  interface Window {
+    CustomerAgentWidget?: {
+      init: (config: { websiteId: number; apiUrl: string }) => void;
+    };
+  }
+}
+
 
 
 export default function RootLayout({
