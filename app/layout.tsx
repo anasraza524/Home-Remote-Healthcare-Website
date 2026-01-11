@@ -1,50 +1,9 @@
-import type { Metadata } from 'next'
+"use client";
+// import type { Metadata } from 'next'
 import './globals.css'
+import Script from 'next/script';
 
-export const metadata: Metadata = {
-  title: {
-    default: 'CareHome Pakistan - Professional Healthcare Services at Home',
-    template: '%s | CareHome Pakistan'
-  },
-  description: 'Leading home healthcare provider in Pakistan offering professional nursing care, elderly care, telemedicine, and remote patient monitoring. PMDC-registered doctors and trained nurses available 24/7.',
-  keywords: ['home healthcare Pakistan', 'home nursing services', 'telemedicine Pakistan', 'elderly care at home', 'PMDC registered doctors', 'home medical care'],
-  authors: [{ name: 'CareHome Pakistan' }],
-  creator: 'CareHome Pakistan',
-  publisher: 'CareHome Pakistan',
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  metadataBase: new URL('https://carehome.pk'),
-  alternates: {
-    canonical: '/',
-  },
-  openGraph: {
-    type: 'website',
-    locale: 'en_PK',
-    url: 'https://carehome.pk',
-    title: 'CareHome Pakistan - Professional Healthcare Services at Home',
-    description: 'Leading home healthcare provider in Pakistan offering professional nursing care, elderly care, telemedicine, and remote patient monitoring.',
-    siteName: 'CareHome Pakistan',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'CareHome Pakistan - Professional Healthcare Services at Home',
-    description: 'Leading home healthcare provider in Pakistan offering professional nursing care, elderly care, telemedicine, and remote patient monitoring.',
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-}
+
 
 export default function RootLayout({
   children,
@@ -54,6 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="theme-color" content="#2563eb" />
@@ -170,6 +130,18 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+                <Script
+  src="https://synovially-screwed-phebe.ngrok-free.dev/static/widget.js"
+  strategy="afterInteractive"
+  onLoad={() => {
+    if (window.CustomerAgentWidget) {
+      window.CustomerAgentWidget.init({
+        websiteId: 21,
+        apiUrl: "https://synovially-screwed-phebe.ngrok-free.dev"
+      });
+    }
+  }}
+/>
       </body>
     </html>
   )
