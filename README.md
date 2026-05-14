@@ -1,36 +1,163 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Home Healthcare Platform — Next.js Healthcare Solution
+
+Modern home healthcare website built with Next.js to improve access to healthcare services, patient support, appointment workflows, and digital healthcare management.
+
+This project focuses on responsive healthcare web architecture, scalable frontend systems, SEO-friendly medical platforms, and user-focused healthcare experiences.
+
+---
+
+## Project Overview
+
+The platform is designed to simplify home healthcare services through a modern web-based solution.
+
+Core objectives include:
+
+- Improving healthcare accessibility
+- Simplifying appointment workflows
+- Providing responsive healthcare interfaces
+- Building scalable healthcare systems
+- Enhancing patient experience through digital solutions
+
+---
+
+## Tech Stack
+
+### Frontend
+- Next.js
+- React.js
+- JavaScript
+- Responsive UI Design
+- SEO-Friendly Rendering
+
+### Development & Deployment
+- Node.js
+- Modern Frontend Tooling
+- Environment Configuration
+- Production Deployment Workflows
+
+### UI & Performance
+- Optimized Rendering
+- Component-Based Architecture
+- Mobile-First Design
+- Dynamic Page Systems
+
+---
+
+## Features
+
+- Modern healthcare landing pages
+- Responsive patient interface
+- Appointment-focused workflows
+- Fast-loading healthcare UI
+- SEO-optimized frontend architecture
+- Scalable component structure
+- Healthcare-focused web experience
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Run Development Server
 
 ```bash
 npm run dev
+
 # or
+
 yarn dev
+
 # or
+
 pnpm dev
+
 # or
+
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+to view the project locally.
+
+---
+
+## Project Structure
+
+The application uses modern Next.js architecture with:
+
+- App Router structure
+- Dynamic frontend rendering
+- Modular component systems
+- Optimized font loading
+- Scalable project organization
+
+Main editable page:
+
+```bash
+app/page.js
+```
+
+---
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Useful resources for Next.js development:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js Documentation
+- Learn Next.js
+- Vercel Deployment Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Healthcare & Web Architecture
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project demonstrates concepts commonly used in:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Healthcare SaaS systems
+- Digital patient platforms
+- Medical service websites
+- SEO-focused healthcare applications
+- Enterprise healthcare dashboards
+- Responsive healthcare portals
+
+---
+
+## Related Resources
+
+### Healthcare Software Development
+- [Healthcare Software Solutions UAE](https://hamrix.com/uae/industries/healthtech)
+- [Custom Software Development](https://hamrix.com/us/services/custom-software)
+- [Enterprise Healthcare Platforms](https://hamrix.com/uk/services/custom-enterprise-software)
+
+### Web & SaaS Development
+- [Next.js Development Services](https://hamrix.com/uae/services/web-development)
+- [SaaS Development Services](https://hamrix.com/us/services/saas-development)
+- [Architecture Audit Services](https://hamrix.com/uae/services/architecture-audit)
+
+### AI & Future Healthcare Systems
+- [AI & ML Integration Services](https://hamrix.com/uae/services/ai-ml-integration)
+- [Generative AI Development](https://hamrix.com/us/services/generative-ai-development)
+- [AI Healthcare Transformation Saudi Arabia](https://hamrix.com/ksa/blog/ai-vision-2030-saudi-arabia-2026)
+
+### Pakistan
+- [Web Development Pakistan](https://hamrix.com/pk/services/web-development)
+
+---
+
+## Deployment
+
+The easiest deployment workflow for this project is through Vercel and modern cloud hosting platforms supporting Next.js applications.
+
+---
+
+## Development Partner
+
+Built and maintained by [Hamrix](https://hamrix.com), focused on scalable healthcare platforms, SaaS systems, AI-powered applications, and enterprise-grade web development solutions across UAE, KSA, USA, UK, and Pakistan.
+
+---
+
+> Modern healthcare-focused Next.js platform built for scalable patient experiences, responsive healthcare systems, and digital healthcare transformation.
